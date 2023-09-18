@@ -40,8 +40,60 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-
 }
+.memeTopText {
+  
+  top: 2rem;
+  position: absolute;
+  max-width: 100%;
+  /* Allow words to break and wrap to the next line */
+  word-wrap: break-word;
+  /* Prevent long words from overflowing the container */
+  overflow-wrap: break-word;
+  /* Use ellipsis (...) to indicate text overflow (optional) */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* Set any other desired styles (font size, font family, etc.) */
+  /* For example: */
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  cursor: grab;
+  user-select: none;
+  color: white;
+  padding: 5px;
+}
+.memeBottomText {
+  
+  bottom: 2rem;
+  position: absolute;
+  max-width: 100%;
+  /* Allow words to break and wrap to the next line */
+  word-wrap: break-word;
+  /* Prevent long words from overflowing the container */
+  overflow-wrap: break-word;
+  /* Use ellipsis (...) to indicate text overflow (optional) */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* Set any other desired styles (font size, font family, etc.) */
+  /* For example: */
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  cursor: grab;
+  user-select: none;
+  color: white;
+  padding: 5px;
+}
+.memeBottomText:active {
+  cursor: grabbing;
+}
+.memeTopText:active {
+  cursor: grabbing;
+}
+.container {
+  position: relative;
+  text-align: center;
+}
+
 @media (min-width: 769px) {
   .inputs {
     display: flex;
