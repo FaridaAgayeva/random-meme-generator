@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Quicksand');
+header {
+  background: linear-gradient(to right, #672280, #a626d3);
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbarLogo {
+  width: 35px;
+  height: 30px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0.7em;
+  margin-inline-end: 0.6em;
+}
+
+.navbarTitle {
+  color: white;
+  font-family: 'Dosis';
+  font-size: large;
+  font-weight: 600;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
